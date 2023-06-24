@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/star"
+        android:title=""
+        android:icon="@drawable/crown"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu"
+        android:title=""
+        android:icon="@drawable/menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/AddCategory"
+                android:title="Add Category"/>
+
+            <item
+                android:id="@+id/AddQuotes"
+                android:title="Add Quotes"/>
+            <item
+                android:id="@+id/logout"
+                android:title="LogOut"/>
+
+        </menu>
+
+    </item>
+
+
+</menu>
+
